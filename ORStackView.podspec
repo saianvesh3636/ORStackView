@@ -13,11 +13,11 @@ Pod::Spec.new do |s|
   s.social_media_url = "http://twitter.com/orta"
   s.source       = { :git => "https://github.com/orta/ORStackView.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '6.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Classes/ios/*', 'Classes/ios/private/*'
   s.private_header_files = 'Classes/ios/private/*.h'
 
-  s.dependency 'FLKAutoLayout', '~> 1.0.1'
+  s.dependency 'FLKAutoLayout', '~> 1.0.0'
 end
