@@ -4,7 +4,7 @@ workspace 'ORStackView'
 
 target 'ORStackViewExample' do
   pod "ORStackView", :path => "ORStackView.podspec"
-  pod 'FLKAutoLayout', '~> 1.0.0'
+  pod 'FLKAutoLayout', '1.0.0'
   xcodeproj 'ORStackViewExample.xcodeproj'
 end
 
